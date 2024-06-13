@@ -1,0 +1,28 @@
+body {
+	background-color: #222;
+	color: #ddd;
+}
+
+table {
+	font-size: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+input[type=color] {
+	width: 80px;
+	height: 40px;
+}
+
+textarea {
+	font-size: 32px;
+	width: 500px;
+	height: 100px;
+}
+
+.示範 {
+	word-break: break-all;
+	width: 500px;
+	height: 100px;
+}

@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta charset="UTF-8">
+	<title>深淺轉換測試</title>
+	<script src="mylibrary.js"></script>
+	<script type="module" src="main.js" defer></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<table>
+		<tbody>
+			<tr>
+				<td>原字色：</td>
+				<td><input type="color" value="#0000ff" id="原字色" /></td>
+				<td>新字色：</td>
+				<td><input type="color" id="新字色" /></td>
+			</tr>
+			<tr>
+				<td>原背色：</td>
+				<td><input type="color" value="#e6e6e6" id="原背色" /></td>
+				<td>新背色：</td>
+				<td><input type="color" id="新背色" /></td>
+			</tr>
+			<tr>
+				<td colspan="4"><textarea id="示範文字">示範文字，來測試深淺轉換。</textarea></td>
+			</tr>
+			<tr>
+				<td colspan="4" id="原色示範" class="示範"></td>
+			</tr>
+			<tr>
+				<td colspan="4" id="新色示範" class="示範"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
