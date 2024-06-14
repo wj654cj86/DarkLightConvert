@@ -4,25 +4,25 @@ body {
 }
 
 table {
-	font-size: 32px;
+	font-size: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
 input[type=color] {
-	width: 80px;
+	width: 60px;
 	height: 40px;
 }
 
 textarea {
-	font-size: 32px;
-	width: 500px;
+	font-size: 24px;
+	width: 350px;
 	height: 100px;
 }
 
 .示範 {
 	word-break: break-all;
-	width: 500px;
+	width: 350px;
 	height: 100px;
 }

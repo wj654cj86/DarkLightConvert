@@ -22,10 +22,9 @@ function visionHsl2hsl(h, s, vl) {
 	let hi2 = hi + 1;
 	let d = h - hi * 60;
 	let m = (visionMedian[hi2] - visionMedian[hi]) * d / 60 + visionMedian[hi];
-	let l = vl / ((2 * m - 1) * s + 1);
-	if (l > .5) {
-		l = (vl - (2 * m - 1) * s) / (((1 - m) / .5 - 1) * s + 1);
-	}
+	let t = (2 * m - 1) * s;
+	let l = vl / (t + 1);
+	if (l > .5) l = (vl - t) / (1 - t);
 	return [h, s, l];
 }
 
